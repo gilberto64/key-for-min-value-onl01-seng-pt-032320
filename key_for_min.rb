@@ -10,9 +10,5 @@ def key_for_min_value(name_hash)
     if value[counter2] < value[counter2 + 1] lowest_counter = counter 2 
     end
   end 
-  puts the lowest     
-      .each do |key, value|
-    if value < 999999 then puts "Happy Birthday #{kids_name}! You are now #{age} years old!"
-    end
- end 
+  puts "the lowest key is #{key}"      
 end
