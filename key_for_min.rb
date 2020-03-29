@@ -7,7 +7,7 @@ def key_for_min_value(name_hash)
   lowest_counter = 99999999
   
   while counter2 < counter1
-    if value[counter2] < value[counter2 + 1] lowest_counter = counter 2 
+    if value[counter2] < value[counter2 + 1] then lowest_counter = counter 2 
     end
   end 
   puts "the lowest key is #{key}"      
