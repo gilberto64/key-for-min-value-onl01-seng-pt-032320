@@ -6,7 +6,8 @@ def key_for_min_value(name_hash)
   counter2 = 0
   lowest_counter = 99999999
   
-  while counter2 < counter1
+  name_hash.each 
+  
     if value[counter2] < value[counter2 + 1] then lowest_counter = counter 2 
     end
   end 
